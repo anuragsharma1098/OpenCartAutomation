@@ -1,37 +1,21 @@
-2025-12-03 15:09:19 [main] DEBUG testCases.TC001_AccountRegistrationTest - Error details: 
-2025-12-03 15:12:06 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anura\Desktop\auto_frmwrk\master.xml"
-2025-12-03 15:12:06 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC002_LoginTest.verifyLogin()[pri:0, instance:testCases.TC002_LoginTest@3a0baae5] 1023334644
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-05 15:29:33 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-05 15:29:33 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\anura\Desktop\auto_frmwrk\master.xml
 
-2025-12-03 15:12:09 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
-2025-12-03 15:12:09 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account link
-2025-12-03 15:12:09 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register link
-2025-12-03 15:12:09 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer data
-2025-12-03 15:12:20 [main] ERROR testCases.TC001_AccountRegistrationTest - Error occurred during registration: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Continue']"}
-  (Session info: chrome=142.0.7444.176)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e5231adbe58b43d058d402c886944428, findElement {value=//button[normalize-space()='Continue'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\anura\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63566}, goog:processID: 9728, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63566/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e5231adbe58b43d058d402c886944428
-2025-12-03 15:12:20 [main] DEBUG testCases.TC001_AccountRegistrationTest - Error details: 
-2025-12-03 15:13:57 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anura\Desktop\auto_frmwrk\master.xml"
-2025-12-03 15:13:57 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\anura\Desktop\auto_frmwrk\master.xml
-
-2025-12-03 15:14:00 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
-2025-12-03 15:14:00 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account link
-2025-12-03 15:14:00 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register link
-2025-12-03 15:14:00 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer data
-2025-12-03 15:14:01 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Continue button
-2025-12-03 15:17:40 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anura\Desktop\auto_frmwrk\master.xml"
-2025-12-03 15:17:41 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\anura\Desktop\auto_frmwrk\master.xml
-
-2025-12-03 15:17:43 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
-2025-12-03 15:17:43 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account link
-2025-12-03 15:17:44 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register link
-2025-12-03 15:17:44 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer data
-2025-12-03 15:17:45 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Continue button
+2025-12-05 15:29:36 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+2025-12-05 15:29:36 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account link
+2025-12-05 15:29:36 [main] INFO  testCases.TC002_LoginTest - Clicked on Login link
+2025-12-05 15:29:36 [main] INFO  testCases.TC002_LoginTest - Providing login credentials
+2025-12-05 15:29:37 [main] INFO  testCases.TC002_LoginTest - Clicked on Login button
+2025-12-05 15:29:37 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****

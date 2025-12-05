@@ -23,7 +23,7 @@ public class BaseClass {
 	public Properties configProp;
 
 	@BeforeClass
-	@Parameters({"os","browser"})
+	@Parameters({"os", "browser"})
 	public void setup(String os, String br) throws FileNotFoundException {
 		
 		// loading config file

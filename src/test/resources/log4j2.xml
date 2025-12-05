@@ -19,7 +19,7 @@
 		</RollingFile>
 	</Appenders>
 	<Loggers>
-		<Root level="debug"><!-- here you can use multiple log levels -->
+		<Root level="All"><!-- here you can use multiple log levels -->
 			<!-- <AppenderRef ref=:Console"/> -->
 			<AppenderRef ref="File" />
 		</Root>

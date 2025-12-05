@@ -26,7 +26,7 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath = "//input[@id='input-password']")
 	WebElement txtPassword;
 
-	@FindBy(xpath = "//input[@id='input-password']")
+	@FindBy(xpath = "//input[@id='input-confirm']")
 	WebElement txtConfirmPassword;
 
 	@FindBy(xpath = "//input[@name='agree']")
@@ -35,7 +35,7 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath = "//input[@value='Continue']")
 	WebElement btnContinue;
 
-	@FindBy(xpath = "//button[normalize-space()='your Account Has Been Created!']")
+	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement msgConfirmation;
 
 	public void setFirstName(String fname) {
