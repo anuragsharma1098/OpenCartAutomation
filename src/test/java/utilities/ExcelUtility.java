@@ -29,7 +29,7 @@ public class ExcelUtility {
 	}
 
 	public int getRowCount(String sheetName) throws IOException {
-		fi = new FileInputStream(sheetName);
+		fi = new FileInputStream(path);
 		workBook = new XSSFWorkbook(fi);
 		sheet = workBook.getSheet(sheetName);
 		int rowCount = sheet.getLastRowNum();

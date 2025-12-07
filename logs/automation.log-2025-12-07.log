@@ -1,4 +1,20 @@
+2025-12-07 16:38:40 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+2025-12-07 16:38:40 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+2025-12-07 16:38:40 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+2025-12-07 16:38:40 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+2025-12-07 16:38:40 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+2025-12-07 16:38:40 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+2025-12-07 16:38:40 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+2025-12-07 16:38:40 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+2025-12-07 16:38:40 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+2025-12-07 16:38:41 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
 2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-07 16:38:41 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
 2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
 2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
 2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
@@ -19,19 +35,3 @@
 2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
 2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
 2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-12-07 16:38:41 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-2025-12-07 16:38:41 [main] INFO  testCases.TC003_LoginTestDDT - Starting TC003_LoginTestDDT
-2025-12-07 16:38:42 [main] INFO  testCases.TC003_LoginTestDDT - Login test passed
-2025-12-07 16:38:43 [main] INFO  testCases.TC003_LoginTestDDT - Finished TC003_LoginTestDDT
-2025-12-07 16:38:43 [main] INFO  testCases.TC003_LoginTestDDT - Starting TC003_LoginTestDDT
-2025-12-07 16:38:54 [main] INFO  testCases.TC003_LoginTestDDT - Login test passed
-2025-12-07 16:38:54 [main] INFO  testCases.TC003_LoginTestDDT - Finished TC003_LoginTestDDT
-2025-12-07 16:38:54 [main] INFO  testCases.TC003_LoginTestDDT - Starting TC003_LoginTestDDT
-2025-12-07 16:39:05 [main] INFO  testCases.TC003_LoginTestDDT - Login test passed
-2025-12-07 16:39:05 [main] INFO  testCases.TC003_LoginTestDDT - Finished TC003_LoginTestDDT
-2025-12-07 16:39:05 [main] INFO  testCases.TC003_LoginTestDDT - Starting TC003_LoginTestDDT
-2025-12-07 16:39:16 [main] INFO  testCases.TC003_LoginTestDDT - Login test passed
-2025-12-07 16:39:16 [main] INFO  testCases.TC003_LoginTestDDT - Finished TC003_LoginTestDDT
-2025-12-07 16:39:16 [main] INFO  testCases.TC003_LoginTestDDT - Starting TC003_LoginTestDDT
-2025-12-07 16:39:27 [main] INFO  testCases.TC003_LoginTestDDT - Login test passed
-2025-12-07 16:39:27 [main] INFO  testCases.TC003_LoginTestDDT - Finished TC003_LoginTestDDT
