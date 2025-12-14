@@ -1,14 +1,13 @@
-2025-12-07 22:44:20 [main] FATAL testCases.TC003_LoginTestDDT - Login test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='My Account']"}
-  (Session info: chrome=142.0.7444.176)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c52e56acff1bf51a91bd24334d0479de, findElement {value=//a[@title='My Account'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\anura\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53363}, goog:processID: 2332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53363/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c52e56acff1bf51a91bd24334d0479de
-2025-12-07 22:44:21 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC003_LoginTestDDT.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTestDDT@6f3c660a] -1842830997
-2025-12-07 22:44:21 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-2025-12-07 22:44:21 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-2025-12-07 22:44:21 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-2025-12-07 22:44:21 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-14 16:54:49 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-14 16:54:49 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-14 16:54:49 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-14 16:54:50 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC002_LoginTest.verifyLogin()[pri:0, instance:testCases.TC002_LoginTest@7776ab] 57320634
+2025-12-14 16:54:50 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-14 16:54:50 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-14 16:54:50 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-14 16:54:50 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-14 16:54:50 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC003_LoginTestDDT.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTestDDT@22295ec4] 1159043621
+2025-12-14 16:54:50 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-14 16:54:50 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-14 16:54:50 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-14 16:54:50 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
