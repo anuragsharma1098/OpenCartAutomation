@@ -22,5 +22,4 @@
 			<class name="testCases.TC003_LoginTestDDT" />
 		</classes>
 	</test> <!-- Test -->
-
 </suite> <!-- Suite -->
