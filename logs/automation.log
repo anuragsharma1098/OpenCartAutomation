@@ -1,6 +1,21 @@
-2025-12-21 21:48:45 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-2025-12-21 21:48:45 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC003_LoginTestDDT.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTestDDT@7fb95505] -1566207898
-2025-12-21 21:48:45 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-2025-12-21 21:48:45 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-2025-12-21 21:48:45 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-2025-12-21 21:48:45 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC002_LoginTest.verifyLogin()[pri:0, instance:testCases.TC002_LoginTest@3adcc812] 1037039137
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC003_LoginTestDDT.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTestDDT@49964d75] 1820494038
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES

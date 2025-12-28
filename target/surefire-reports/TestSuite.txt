@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 3.039 s <<< FAILURE! -- in TestSuite
-testCases.TC002_LoginTest.setup[windows, chrome](0) -- Time elapsed: 1.447 s <<< FAILURE!
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 3.616 s <<< FAILURE! -- in TestSuite
+testCases.TC002_LoginTest.setup[windows, chrome](0) -- Time elapsed: 2.017 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
-Host info: host: 'ASUS', ip: '192.168.31.108'
+Host info: host: 'ASUS', ip: '192.168.246.73'
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -65,10 +65,10 @@ Caused by: java.nio.channels.ClosedChannelException
 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
 	... 9 more
 
-testCases.TC003_LoginTestDDT.setup[windows, edge](0) -- Time elapsed: 1.448 s <<< FAILURE!
+testCases.TC003_LoginTestDDT.setup[windows, edge](0) -- Time elapsed: 2.018 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
-Host info: host: 'ASUS', ip: '192.168.31.108'
+Host info: host: 'ASUS', ip: '192.168.246.73'
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
