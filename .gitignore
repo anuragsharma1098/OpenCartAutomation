@@ -1,0 +1,21 @@
+﻿# Maven build artifacts
+target/
+*.class
+
+# IDE settings
+.classpath
+.project
+.settings/
+.factorypath
+.idea/
+*.iml
+
+# Test reports and logs
+test-output/
+logs/
+reports/
+screenshots/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
