@@ -1,0 +1,40 @@
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-28 20:30:48 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC002_LoginTest.verifyLogin()[pri:0, instance:testCases.TC002_LoginTest@3adcc812] 1037039137
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC003_LoginTestDDT.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTestDDT@49964d75] 1820494038
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-28 20:30:48 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2026-01-12 14:54:18 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anura\Desktop\auto_frmwrk\master.xml"
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC001_AccountRegistrationTest.verifyRegistration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7b420819] 1852307278
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2026-01-12 14:54:18 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2026-01-12 14:54:20 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC001_AccountRegistrationTest.verifyRegistration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7b420819] 1852307278
+2026-01-12 14:54:20 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2026-01-12 14:54:20 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
