@@ -15,6 +15,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -94,15 +95,19 @@ public class BaseClass {
 
 			switch (br.toLowerCase()) {
 			case "chrome":
+				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver();
 				break;
 			case "edge":
+				WebDriverManager.edgedriver().setup();
 				driver = new EdgeDriver();
 				break;
 			case "firefox":
+				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
 				break;
 			case "safari":
+				WebDriverManager.safaridriver().setup();
 				driver = new SafariDriver();
 				break;
 			default:

@@ -103,5 +103,11 @@
 			<artifactId>commons-email</artifactId>
 			<version>1.6.0</version>
 		</dependency>
+		<!-- WebDriver Manager for automatic driver management -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.9.1</version>
+		</dependency>
 	</dependencies>
 </project>
