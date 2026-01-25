@@ -1,2 +1,2 @@
-cd C:\Users\anura\Desktop\auto_frmwrk
+cd ..\auto_frmwrk
 mvn test
