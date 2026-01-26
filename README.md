@@ -24,7 +24,7 @@ Before running the tests, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/anuragsharma1098/OpenCartAutomation.git
+git clone https://github.com/anuragsharma1098/OpenCartAutomation_java_sel.git
 cd OpenCartAutomation
 ```
 
