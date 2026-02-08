@@ -20,8 +20,11 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -47,6 +50,22 @@ public class BaseClass {
 			e.printStackTrace();
 		}
 		logger = LogManager.getLogger(this.getClass());
+
+		// determine headless mode: prefer config property, fall back to CI environment
+		boolean headless = false;
+		try {
+			String headlessProp = configProp.getProperty("headless");
+			if (headlessProp != null && headlessProp.equalsIgnoreCase("true")) {
+				headless = true;
+			}
+		} catch (Exception e) {
+			// ignore
+		}
+		String ghActions = System.getenv("GITHUB_ACTIONS");
+		String ciEnv = System.getenv("CI");
+		if ((ghActions != null && ghActions.equalsIgnoreCase("true")) || (ciEnv != null && ciEnv.equalsIgnoreCase("true"))) {
+			headless = true;
+		}
 
 		if (configProp.getProperty("execution_env").equalsIgnoreCase("remote")) {
 			DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -96,15 +115,31 @@ public class BaseClass {
 			switch (br.toLowerCase()) {
 			case "chrome":
 				WebDriverManager.chromedriver().setup();
-				driver = new ChromeDriver();
+				ChromeOptions chromeOptions = new ChromeOptions();
+				if (headless) {
+					chromeOptions.addArguments("--headless=new");
+					chromeOptions.addArguments("--no-sandbox");
+					chromeOptions.addArguments("--disable-dev-shm-usage");
+				}
+				driver = new ChromeDriver(chromeOptions);
 				break;
 			case "edge":
 				WebDriverManager.edgedriver().setup();
-				driver = new EdgeDriver();
+				EdgeOptions edgeOptions = new EdgeOptions();
+				if (headless) {
+					edgeOptions.addArguments("--headless=new");
+					edgeOptions.addArguments("--no-sandbox");
+					edgeOptions.addArguments("--disable-dev-shm-usage");
+				}
+				driver = new EdgeDriver(edgeOptions);
 				break;
 			case "firefox":
 				WebDriverManager.firefoxdriver().setup();
-				driver = new FirefoxDriver();
+				FirefoxOptions firefoxOptions = new FirefoxOptions();
+				if (headless) {
+					firefoxOptions.setHeadless(true);
+				}
+				driver = new FirefoxDriver(firefoxOptions);
 				break;
 			case "safari":
 				WebDriverManager.safaridriver().setup();
