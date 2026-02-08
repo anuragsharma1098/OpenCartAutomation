@@ -1,3 +1,5 @@
+# [![CI](https://github.com/anuragsharma1098/OpenCartAutomation/actions/workflows/ci.yml/badge.svg)](https://github.com/anuragsharma1098/OpenCartAutomation/actions/workflows/ci.yml)
+
 # OpenCart Automation Test Suite
 
 A comprehensive Selenium-based test automation framework for OpenCart e-commerce platform using Java, Maven, and TestNG.
@@ -101,40 +103,41 @@ mvn test -Dsuites=grid_docker.xml
 ```
 
 ## Project Structure
-
 ```
 OpenCartAutomation/
+├── .github/                      # GitHub configuration and workflow docs
+│   ├── workflows/                # GitHub Actions workflow definitions
+│   │   └── ci.yml
+│   └── README.md                 # Documentation for workflows
+├── ci/                           # CI server (Jenkins) configuration
+│   └── Jenkinsfile
+├── frmwork_flow/                 # Framework helper files and scripts
+│   └── docker_sel.txt
 ├── src/
-│   ├── main/                          # Main source code
-│   └── test/
-│       ├── java/
-│       │   ├── pageObjects/           # Page Object Model classes
-│       │   │   ├── BasePage.java
-│       │   │   ├── HomePage.java
-│       │   │   ├── LoginPage.java
-│       │   │   ├── AccountRegistrationPage.java
-│       │   │   └── MyAccountPage.java
-│       │   ├── testBase/              # Base test configuration
-│       │   │   └── BaseClass.java
-│       │   ├── testCases/             # Test case classes
-│       │   │   ├── TC001_AccountRegistrationTest.java
-│       │   │   ├── TC002_LoginTest.java
-│       │   │   └── TC003_LoginTestDDT.java
-│       │   └── utilities/             # Utility classes
-│       │       ├── DataProviders.java
-│       │       ├── ExcelUtility.java
-│       │       └── ExtentReportUtility.java
-│       └── resources/
-│           ├── config.properties      # Configuration file
-│           └── log4j2.xml             # Logging configuration
-├── testData/                          # Test data files (Excel)
-├── reports/                           # Test execution reports
-├── logs/                              # Application logs
-├── pom.xml                            # Maven configuration
-├── master.xml                         # Main test suite
-├── crossbrowsertesting.xml            # Cross-browser test suite
-├── grid_docker.xml                    # Docker grid test suite
-└── docker-compose.yaml                # Docker composition for Selenium Grid
+│   ├── main/                     # Main/source code (if any)
+│   └── test/                     # Test sources
+│       ├── java/                 # Java test code
+│       │   ├── pageObjects/      # Page Object Model classes
+│       │   ├── testBase/         # Base test classes and setup
+│       │   ├── testCases/        # Test case classes (TestNG)
+│       │   └── utilities/        # Utility/helper classes
+│       └── resources/            # Test resources (config, logging)
+│           ├── config.properties
+│           └── log4j2.xml
+├── testData/                     # Test data files (Excel)
+├── reports/                      # Generated HTML/Extent reports
+├── logs/                         # Log files produced by tests
+├── open_cart/                    # Project-specific resources
+├── target/                       # Maven build output (do not commit)
+├── test-output/                  # TestNG output directory
+├── pom.xml                       # Maven project file
+├── master.xml                    # Main TestNG suite
+├── crossbrowsertesting.xml       # Cross-browser test suite
+├── grid_docker.xml               # Docker/Grid test suite
+├── grouping.xml                  # TestNG grouping configuration
+├── docker-compose.yaml           # Docker compose for Selenium Grid
+├── run.bat                       # Windows helper script to run tests
+└── README.md                     # Project README
 
 ```
 
